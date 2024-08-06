@@ -1,6 +1,7 @@
 .btnstyle {
     padding: 16px 24px;
     border-radius: 100px;
+    cursor: pointer;
     background: linear-gradient(90deg, #2587E3 0%, #54D923 100%);
 }
 .btnstyle h6 {
