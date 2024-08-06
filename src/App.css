@@ -1,3 +1,7 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
 /* font styling */
 h1 {
   font-size: 68px;
@@ -84,6 +88,7 @@ p {
   h2 {
     font-size: 24px;
     font-weight: 700px;
+    text-align: center;
   }
   h6 {
     font-size: 18px;

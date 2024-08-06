@@ -28,4 +28,11 @@
     .mission {
         margin-top: 50px;
     }
+    .missioninfo h6 {
+        text-align: center;
+    }
+    .missionbtn {
+        margin: auto;
+        margin-top: 14px;
+    }
 }

@@ -30,11 +30,11 @@
         padding-block: 10px;
     }
     .imglogo img {
-        width: 26px;
-        height: 26px;
+        width: 35px;
+        height:35px;
     }
     .imglogo {
-        gap: 8px;
+        gap: 5px;
     }
     .navbarcont {
         margin-inline: 10px;

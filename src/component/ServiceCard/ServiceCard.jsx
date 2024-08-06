@@ -5,7 +5,7 @@ const ServiceCard = ({ title, subtitle, serviceImg }) => {
   return (
     <div style={styles.serviceoverall}>
       <div className={styles.servicecard}>
-        <img src={serviceImg} alt="" />
+        <img src={serviceImg} alt="service image" />
         <h6>{title}</h6>
         <p>{subtitle}</p>
       </div>

@@ -40,4 +40,8 @@
     .chooseuscont {
         padding: 50px 0px;
     }
+    .chooseitem {
+        text-align: center;
+        margin-bottom: 10px;
+    }
 }   

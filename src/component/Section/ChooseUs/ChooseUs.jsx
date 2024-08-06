@@ -14,8 +14,10 @@ const ChooseUs = () => {
             <img src={ChooseUsImg} alt="choose us" />
           </div>
           <div className={`${styles.chooseinfo}`}>
-            <h6>Why Choose Us?</h6>
-            <h2>Our Commitment to Making a Difference</h2>
+            <div className={`${styles.chooseitem}`}>
+              <h6>Why Choose Us?</h6>
+              <h2>Our Commitment to Making a Difference</h2>
+            </div>
             <p>
               At <strong>Get Thru</strong>, we are dedicated to making a
               tangible impact in bridging the digital divide.
@@ -32,7 +34,10 @@ const ChooseUs = () => {
                   efficient internet solutions that cater to a variety of needs,
                   ensuring high performance and connectivity.
                 </p>
-                <div className={`${styles.hr}`}> <hr /> </div>
+                <div className={`${styles.hr}`}>
+                  {" "}
+                  <hr />{" "}
+                </div>
               </div>
             </div>
             <div className={`${styles.extrainfo} flex gap-10`}>
@@ -47,7 +52,10 @@ const ChooseUs = () => {
                   sensitive, and effectively address the unique challenges faced
                   by different regions.
                 </p>
-                <div className={`${styles.hr}`}> <hr /> </div>
+                <div className={`${styles.hr}`}>
+                  {" "}
+                  <hr />{" "}
+                </div>
               </div>
             </div>
             <div className={`${styles.extrainfo} flex gap-10`}>
@@ -62,7 +70,10 @@ const ChooseUs = () => {
                   inclusivity to make sure that no one is left behind in the
                   digital age.
                 </p>
-                <div className={`${styles.hr}`}> <hr /> </div>
+                <div className={`${styles.hr}`}>
+                  {" "}
+                  <hr />{" "}
+                </div>
               </div>
             </div>
             <div className={`${styles.extrainfo} flex gap-10`}>
@@ -77,7 +88,10 @@ const ChooseUs = () => {
                   boosting local businesses, our work creates lasting positive
                   change across South Africa.
                 </p>
-                <div className={`${styles.hr}`}> <hr /> </div>
+                <div className={`${styles.hr}`}>
+                  {" "}
+                  <hr />{" "}
+                </div>
               </div>
             </div>
             <div className={`${styles.extrainfo} flex gap-10`}>

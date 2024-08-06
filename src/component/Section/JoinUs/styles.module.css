@@ -25,6 +25,7 @@
 .rightcont h2 {
     color: #FFF !important;
 }
+
 .rightcont p {
     font-weight: 600;
     max-width: 556px;
@@ -66,5 +67,11 @@
     }
     .joinuscont {
         padding-block: 50px;
+    }
+    .rightcont h6 {
+        text-align: center;
+    }
+    .rightcont p {
+        text-align: center;
     }
 }
