@@ -14,3 +14,11 @@
     display: flex;
     align-items: center;
 }
+@media screen and (max-width: 500px) {
+    .storiescont {
+        margin-block: 30px;
+    }
+    .storiesheader {
+        margin-inline: 10px;
+    }
+}

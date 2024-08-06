@@ -30,9 +30,14 @@
     }
     .service {
         margin-top: 50px;
+        padding-block: 50px;
     }
     .flexservice {
         flex-direction: column;
         align-items: center;
+    }
+    .servicebtn {
+        max-width: 324px;
+        margin: 20px auto;
     }
 }

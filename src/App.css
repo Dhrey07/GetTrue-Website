@@ -77,22 +77,22 @@ p {
 
 @media screen and (max-width: 500px) {
   /* font styling */
-h1 {
-  font-size: 32px;
-  font-weight: 700;
-}
-h2 {
-  font-size: 24px;
-  font-weight: 700px;
-}
-h6 {
-  font-size: 18px;
-  font-weight: 600;
-}
-p {
-  font-size: 14px;
-  font-weight: 400;
+  h1 {
+    font-size: 32px;
+    font-weight: 700;
+  }
+  h2 {
+    font-size: 24px;
+    font-weight: 700px;
+  }
+  h6 {
+    font-size: 18px;
+    font-weight: 600;
+  }
+  p {
+    font-size: 14px;
+    font-weight: 400;
 
-}
+  }
 }
 

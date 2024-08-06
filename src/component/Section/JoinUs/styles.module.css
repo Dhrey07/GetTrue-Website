@@ -58,5 +58,9 @@
     .joinmoreinfo {
         flex-direction: column;
         justify-content: center;
+        margin-inline: 20px 24px;
+    }
+    .joinuscont {
+        padding-block: 50px;
     }
 }

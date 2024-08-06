@@ -17,10 +17,17 @@
     margin-top: 36px;
 }
 @media screen and (max-width: 500px) {
-    .herooverall {
+    /* .herooverall {
         height: 100dvh;
-    }
+    } */
     .herocont {
         padding-block: 50px;
+        margin-inline: 10px;
+    }
+    h1 {
+        font-size: 32px;
+    }
+    p {
+        font-size: 14px;
     }
 }
