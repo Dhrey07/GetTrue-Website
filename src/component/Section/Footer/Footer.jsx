@@ -58,7 +58,7 @@ const Footer = () => {
           </form>
         </div>
       </div>
-      <div className="margin-inline-70">
+      <div className={`${styles.hrr}`}>
         <hr />
       </div>
       <div className={`${styles.copyright}`}>

@@ -52,7 +52,7 @@ input{
     margin-top: 32px;
     max-width: 165px;
 }
-.margin-inline-70 {
+.hrr {
     margin-inline: 70px;
 }
 .copyright {
@@ -75,5 +75,8 @@ input{
         flex-direction: column;
         gap: 20px;
         align-items: center;
+    }
+    .hrr {
+        margin-inline: 20px;
     }
 }
