@@ -17,12 +17,13 @@ const ChooseUs = () => {
             <div className={`${styles.chooseitem}`}>
               <h6>Why Choose Us?</h6>
               <h2>Our Commitment to Making a Difference</h2>
+              <p>
+                At <strong>Get Thru</strong>, we are dedicated to making a
+                tangible impact in bridging the digital divide.
+                <strong>Here’s why we stand out:</strong>
+              </p>
             </div>
-            <p>
-              At <strong>Get Thru</strong>, we are dedicated to making a
-              tangible impact in bridging the digital divide.
-              <strong>Here’s why we stand out:</strong>
-            </p>
+
             <div className={`${styles.extrainfo} flex gap-10`}>
               <div>
                 <img src={TechImg} alt="" />

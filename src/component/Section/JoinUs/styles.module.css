@@ -73,5 +73,6 @@
     }
     .rightcont p {
         text-align: center;
+        margin-block: 20px 28px;
     }
 }
