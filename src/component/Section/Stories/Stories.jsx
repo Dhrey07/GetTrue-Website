@@ -76,8 +76,8 @@ const Stories = () => {
           marginInline: "60px",
           "@media (max-width: 1000px)": {
             flexDirection: "column",
-            marginInline: "20px"
-          }
+            marginInline: "20px",
+          },
         }}
       >
         {testimony.map((step, index) => (
@@ -101,6 +101,14 @@ const Stories = () => {
             style={{ color: "#54D923" }}
           />
         </Button>
+        <div>
+          <Icon
+            icon="material-symbols:circle"
+            width="10"
+            height="10"
+            style={{ color: "#54D923" }}
+          />
+        </div>
         <Button onClick={handleNext} className={styles.scrollButton}>
           <Icon
             icon="formkit:arrowright"

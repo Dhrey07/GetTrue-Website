@@ -9,6 +9,8 @@
     margin-block: 72px;
 }
 .buttoncontainer {
-    max-width: 200px;
+    max-width: 140px;
     margin: auto;
+    display: flex;
+    align-items: center;
 }
