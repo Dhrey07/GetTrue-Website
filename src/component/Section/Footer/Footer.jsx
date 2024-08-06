@@ -40,24 +40,25 @@ const Footer = () => {
         </div>
         <div className={`${styles.footerright}`}>
           <h4>Stay Updated with Our Latest News</h4>
+          <h5>Got questions or need assistance?</h5>
           <p>
-            Subscribe to our newsletter to receive updates on our mission,
-            upcoming events, and more.
+            We`re here to help you with any information or support you need.
+            Reach out to us, and we`ll get back to you promptly!
           </p>
           <form action="">
-            <input
+            {/* <input
               type="email"
               name="email"
               id="e_mail"
               placeholder="Email Address"
-            />
+            /> */}
             <div className={`${styles.footerbtn}`}>
-              <Button title="Subscribe" />
+              <Button title="Send Enquiry" />
             </div>
           </form>
         </div>
       </div>
-      <div className="margin-inline-70" >
+      <div className="margin-inline-70">
         <hr />
       </div>
       <div className={`${styles.copyright}`}>
