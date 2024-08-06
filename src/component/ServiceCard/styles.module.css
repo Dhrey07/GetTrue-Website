@@ -1,0 +1,26 @@
+
+.servicecard {
+    margin-top: 56px;
+    max-width: 287px;
+    padding: 20px;
+    text-align: left;
+    border: 2px solid #54D923;
+    box-shadow: 0px 4px 25px 0px #0000001A;
+    border-radius: 24px;
+}
+.servicecard h6 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 22px;
+}
+.servicecard p {
+    margin-top: 12px;
+}
+.servicecard img {
+    margin-top: 38px;
+}
+@media screen and (max-width: 1000px) {
+    .servicecard {
+        margin-top: 20px;
+    }
+}

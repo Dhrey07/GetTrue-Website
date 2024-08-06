@@ -1,0 +1,26 @@
+.herooverall {
+    background-image: url(../../assets/herobcg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.herocont {
+    max-width: 910px;
+    margin: auto;
+    padding-block: 275px;
+    text-align: center;
+}
+.herobtn {
+    max-width: 222px;
+    margin: auto;
+    margin-top: 36px;
+}
+@media screen and (max-width: 500px) {
+    .herooverall {
+        height: 100dvh;
+    }
+    .herocont {
+        padding-block: 50px;
+    }
+}

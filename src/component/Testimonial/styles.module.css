@@ -1,0 +1,21 @@
+.cardstyle {
+    margin-top: 64px;
+    max-width: 413px;
+    box-shadow: 0px 4px 25px 0px #0000001A;
+    padding: 24px;
+    border-radius: 20px;
+    height: 324px;
+    position: relative;
+}
+.testimonytext {
+    margin-block: 17px 53px;
+}
+.clientinfo {
+    position: absolute;
+    bottom: 37px;
+}
+@media screen and (max-width: 1000px) {
+    .cardstyle {
+        height: 350px;
+    }
+}

@@ -1,0 +1,77 @@
+/* font styling */
+h1 {
+  font-size: 68px;
+  font-weight: 700;
+  margin-block: 0px;
+  color: #464646;
+}
+h2 {
+  font-size: 32px;
+  font-weight: 700px;
+  color: #464646;
+  margin-block: 0px;
+}
+h6 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #2587E3;
+  line-height: 24.6px;
+  margin-block: 0px;
+}
+p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22.14px;
+  margin-block: 0px;
+  color: #464646;
+}
+/* styling for flex items */
+.flex {
+  display: flex;
+}
+
+.align-item-center {
+  align-items: center;
+}
+.align-item-start {
+  align-items: start;
+}
+
+.gap-10 {
+  gap: 10px;
+}
+.gap-16 {
+  gap: 16px;
+}
+.gap-5 {
+  gap: 5px;
+}
+.space-between {
+  justify-content: space-between;
+}
+
+/* Common Styling */
+.margin-inline-80 {
+  margin-inline: 80px;
+}
+
+.padding-block-20 {
+  padding-block: 20px;
+}
+.margin-top-20 {
+  margin-top: 20px;
+}
+.margin-top-38 {
+  margin-top: 38px;
+}
+.margin-top-8 {
+  margin-top: 8px;
+}
+.color-white {
+  color: #FFF;
+}
+.color-green {
+  color: #54D923;
+  font-weight: 700;
+}
+

@@ -1,0 +1,42 @@
+.navbar {
+    max-width: 1440px;
+    margin: auto;
+}
+.navbarcont {
+    padding-block: 10px;
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    margin-inline: 80px;
+    align-items: center;
+}
+.navbar h5 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #464646;
+    margin-block: 0px;
+}
+.imglogo {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+.imglogo img {
+    width: 61px;
+    height: 61px;
+}
+@media screen and (max-width: 500px) {
+    .navbar {
+        padding-block: 10px;
+    }
+    .imglogo img {
+        width: 36px;
+        height: 36px;
+    }
+    .navbarcont {
+        margin-inline: 20px;
+    }
+    .navbar h5 {
+        font-size: 20px;
+    }
+}

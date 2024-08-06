@@ -1,0 +1,28 @@
+.mission {
+    max-width: 1440px;
+    margin: auto;
+    margin-top: 160px;
+}
+.missioncont {
+    margin-inline: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.missioncont img {
+    width: 100%;
+}
+.missioninfo {
+    max-width: 507px;
+}
+.missionbtn {
+    margin-top: 40px;
+    max-width: 227px;
+}
+@media screen and (max-width: 1000px) {
+    .missioncont {
+        margin-inline: 20px;
+    }
+}

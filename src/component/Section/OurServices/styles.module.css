@@ -1,0 +1,38 @@
+.service {
+    background-color: #F7F8F9;
+    padding-block: 117px;
+    margin-top: 160px;
+}
+.servicecont {
+    max-width: 1440px;
+    margin: auto;
+    text-align: center;
+}
+.margincont {
+    margin-inline: 80px;
+}
+.ourserviceparagraph {
+    max-width: 1039px;
+    margin: auto;
+    margin-top: 16px;
+}
+.flexservice {
+    display: flex;
+    gap: 20px;
+}
+.servicebtn {
+    max-width: 324px;
+    margin: 48px auto;
+}
+@media screen and (max-width: 1000px) {
+    .margincont {
+        margin-inline: 20px;
+    }
+    .service {
+        margin-top: 50px;
+    }
+    .flexservice {
+        flex-direction: column;
+        align-items: center;
+    }
+}

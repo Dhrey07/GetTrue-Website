@@ -1,0 +1,14 @@
+.storiesheader {
+    max-width: 1039px;
+    margin: auto;
+    text-align: center;
+}
+.storiescont {
+    max-width: 1440px;
+    margin: auto;
+    margin-block: 72px;
+}
+.buttoncontainer {
+    max-width: 200px;
+    margin: auto;
+}

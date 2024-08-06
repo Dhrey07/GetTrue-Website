@@ -1,0 +1,19 @@
+.btnstyle {
+    padding: 16px 24px;
+    border-radius: 100px;
+    background: linear-gradient(90deg, #2587E3 0%, #54D923 100%);
+}
+.btnstyle h6 {
+    font-weight: 500;
+    font-size: 18px;
+    margin-block: 0px;
+    color: #FFF !important;
+}
+@media screen and (max-width: 435px) {
+    .btnstyle h6 {
+        font-size: 14px;
+    }
+    .btnstyle{
+        padding: 12px 20px;
+    }
+}
