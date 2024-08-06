@@ -79,4 +79,7 @@ input{
     .hrr {
         margin-inline: 20px;
     }
+    .footerbtn {
+        max-width: 120px;
+    }
 }

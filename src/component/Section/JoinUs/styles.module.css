@@ -68,11 +68,12 @@
     .joinuscont {
         padding-block: 50px;
     }
-    .rightcont h6 {
+    .rightcont h6,
+    .rightcont h2 {
         text-align: center;
     }
-    .rightcont p {
-        text-align: center;
-        margin-block: 20px 28px;
+    .joinusitems {
+        border-radius: 28px;
+        padding-block: 28px;
     }
 }
