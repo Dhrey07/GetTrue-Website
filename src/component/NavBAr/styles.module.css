@@ -16,6 +16,11 @@
     color: #464646;
     margin-block: 0px;
 }
+.modalFooterBtn {
+    max-width: 210px;
+    text-align: center;
+    margin: auto;
+}
 .imglogo {
     display: flex;
     gap: 16px;

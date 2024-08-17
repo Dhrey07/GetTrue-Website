@@ -1,0 +1,86 @@
+.inputwrapper {
+    text-align: left;
+}
+.areawrapper {
+    text-align: left;
+}
+
+.areawrapper textarea {
+    width: 96%;
+    height: 70px;
+    border: 1px solid #D0D5DD;
+    border-radius: 6px;
+    padding: 6px;
+    color: #667185
+}
+
+.areawrapper p {
+    color: #101928;
+    margin-bottom: 4px;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 5px;
+}
+
+.selectwrapper select {
+    width: 100%;
+    height: 46px;
+    box-sizing: border-box;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 100px;
+    border: 1px solid hsl(0, 0%, 80%);
+    background-color: white;
+    color: #667185
+}
+
+.selectwrapper {
+    text-align: left;
+}
+
+.selectwrapper p {
+    color: #101928;
+    margin-bottom: 4px;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 5px;
+}
+
+.inputwrapper p {
+    color: #101928;
+    margin-bottom: 0px;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 5px;
+}
+
+.input {
+    width: 100%;
+    height: 46px;
+    box-sizing: border-box;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid hsl(0, 0%, 80%);
+    margin-block: 4px 4px !important;
+    border-radius: 100px;
+    background-color: white;
+    color: #667185
+}
+
+/* @media (max-width: 576px) {
+    .inputwrapper {
+        width: 300px;
+    }
+
+    .selectwrapper {
+        width: 300px;
+    }
+
+    .selectwrapper select {
+        width: 280px;
+    }
+
+    .input {
+        width: 280px;
+    }
+} */

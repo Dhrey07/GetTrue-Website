@@ -1,0 +1,63 @@
+/* STYLING FOR MODAL */
+.modalpopup{
+    width: 620px;
+    max-width: 100%;
+}
+.modalinfo{
+    margin: 2rem;
+}
+.css153eyq5MuiModalrootMuiDialogroot .MuiDialogContentroot {
+    padding: 0px!important;
+}
+.modalheadcontainer h3 {
+    text-align: center;
+    color: #2587E3;
+}
+.modaltitle{
+    color: #1A1A21;
+    font-size: 18px;
+    margin-bottom: 0px
+}
+.texttag{
+    max-width: 603px;
+    margin: auto;
+    text-align: center;
+    color: rgba(102, 113, 133, 1);
+    font-size: 16px !important;
+    margin-bottom: 1rem !important;
+    letter-spacing: -0.5px;
+}
+.closeimg {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.addclassheader{
+    /* display: flex;
+    align-items: center;
+    justify-content: space-between; */
+    overflow: -moz-hidden-unscrollable;
+    margin-bottom: 10px;
+    position: relative
+}
+.addclassheader h4,
+.addclassheader h3{
+    letter-spacing: -0.3px;
+    text-align: center;
+}
+.css1t1j96hMuiPaperrootMuiDialogpaper{
+    width: 100%;
+    padding: 0px !important;
+    margin-bottom: 32px !important;
+    border-bottom: none !important
+}
+
+@media (max-width: 426px) {
+    .extrasubject{
+        flex-direction: column;
+        gap: 0px;
+    }
+    .texttag{
+        font-size: 14px !important;
+    }
+}
