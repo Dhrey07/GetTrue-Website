@@ -53,7 +53,7 @@ const Footer = () => {
               placeholder="Email Address"
             /> */}
             <div className={`${styles.footerbtn}`}>
-              <Button title="Send Enquiry" />
+              <Button title="Contact Us" />
             </div>
           </form>
         </div>

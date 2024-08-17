@@ -50,10 +50,10 @@ const OurServices = () => {
             </div>
             <div>
               <ServiceCard
-                title="Wi-Fi Hotspots"
-                subtitle="Providing affordable and reliable internet access in key
-               public areas such as community centers and parks, supporting education,
-                work, and social inclusion."
+                title="Digital Skills Training"
+                subtitle="Providing in-depth training programs to boost digital literacy
+                 and advanced skills, enabling individuals to improve their employability
+                  and participate fully in the digital economy."
                 serviceImg={WifiImg}
               />
             </div>

@@ -27,8 +27,8 @@
     align-items: center;
 }
 .imglogo img {
-    width: 61px;
-    height: 61px;
+    width: 71px;
+    height: 71px;
 }
 @media screen and (max-width: 500px) {
     .navbar {
