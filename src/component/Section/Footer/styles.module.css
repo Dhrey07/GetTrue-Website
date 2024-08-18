@@ -52,6 +52,11 @@ input{
     margin-top: 32px;
     max-width: 160px;
 }
+.modalFooterBtn {
+    max-width: 210px;
+    text-align: center;
+    margin: auto;
+}
 .hrr {
     margin-inline: 70px;
 }

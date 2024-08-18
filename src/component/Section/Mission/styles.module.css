@@ -21,6 +21,11 @@
     margin-top: 40px;
     max-width: 240px;
 }
+.modalFooterBtn {
+    max-width: 210px;
+    text-align: center;
+    margin: auto;
+}
 @media screen and (max-width: 1000px) {
     .missioncont {
         margin-inline: 20px;

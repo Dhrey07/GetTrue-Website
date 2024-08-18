@@ -16,6 +16,11 @@
     margin: auto;
     margin-top: 36px;
 }
+.modalFooterBtn {
+    max-width: 210px;
+    text-align: center;
+    margin: auto;
+}
 @media screen and (max-width: 500px) {
     /* .herooverall {
         height: 100dvh;

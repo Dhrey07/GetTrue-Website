@@ -4,8 +4,16 @@ import WifiImg from "../../../assets/wifi.svg";
 import HomeInternet from "../../../assets/homeinternet.png";
 import BusinessImg from "../../../assets/bsuiness.png";
 import Button from "../../Button/Button";
+import Modal from "../../../component/Modal";
+import { useState } from "react";
 
 const OurServices = () => {
+  const [showButton, setShowButton] = useState(false);
+
+  const handleModal = () => {
+    setShowButton(!showButton);
+  };
+
   return (
     <div className={`${styles.service}`}>
       <div className={`${styles.servicecont}`}>
@@ -65,10 +73,31 @@ const OurServices = () => {
             connect and empower communities.
           </p>
           <div className={`${styles.servicebtn}`}>
-            <Button title="Learn More About Our Services" />
+            <Button title="Learn More About Our Services" onClick={handleModal}/>
           </div>
         </div>
       </div>
+      <Modal
+        title="Learn More"
+        subtitle={
+          <div>
+            This feature is coming soon. Stay tuned for more updates!
+          </div>
+        }
+        modalContent={
+          <>
+          </>
+        }
+        modalFooter={
+          <>
+            <div className={styles.modalFooterBtn}>
+              <Button title="Close" onClick={handleModal} />
+            </div>
+          </>
+        }
+        isopen={showButton}
+        closeModal={handleModal}
+      />
     </div>
   );
 };
