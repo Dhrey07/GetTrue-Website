@@ -12,11 +12,7 @@
 .modalheadcontainer h3 {
     text-align: center;
     color: #2587E3;
-}
-.modaltitle{
-    color: #1A1A21;
-    font-size: 18px;
-    margin-bottom: 0px
+    font-weight: 800;
 }
 .texttag{
     max-width: 603px;
@@ -29,8 +25,8 @@
 }
 .closeimg {
     position: absolute;
-    right: 0;
-    top: 0;
+    right: 5%;
+    top: 5%;
 }
 .addclassheader{
     /* display: flex;
@@ -59,5 +55,11 @@
     }
     .texttag{
         font-size: 14px !important;
+    }
+}
+@media (max-width: 500px) {
+    .modalheadcontainer {
+        max-width: 250px;
+        margin: auto;
     }
 }

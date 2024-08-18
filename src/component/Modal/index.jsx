@@ -35,11 +35,7 @@ const Modal = ({
           <div className={`${classes.modalinfo}`}>
             <div className={classes.addclassheader}>
               <div className={`${classes.modalheadcontainer}`}>
-                <h3>Stay Connected with Us</h3>
-                <h4 className={classes.modaltitle}>{title}</h4>
-              </div>
-              <div className={classes.closeimg}>
-                <img onClick={closeModal} src={close_btn} alt="" />
+                <h3 className={classes.modaltitle}>{title}</h3>
               </div>
             </div>
             <div className={`${classes.texttag}`}>{subtitle}</div>
@@ -49,6 +45,9 @@ const Modal = ({
               {modalContent}
             </DialogContent>
             <div>{modalFooter}</div>
+          </div>
+          <div className={classes.closeimg}>
+            <img onClick={closeModal} src={close_btn} alt="" />
           </div>
         </div>
       </BootstrapDialog>
